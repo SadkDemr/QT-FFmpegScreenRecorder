@@ -31,16 +31,10 @@ crf： This parameter controls transcoding , The value range of this parameter i
 
 
 
-## Installation
-
-Install my-project with npm
+## Installation FFmpeg
 
 ```bash
-//MinGw
- https://wiki.qt.io/How_to_setup_Qt_and_openCV_on_Windows
-
- //MSVC2017
- https://wiki.qt.io/How_to_setup_Qt_and_openCV_on_Windows_with_MSVC2017
+https://www.youtube.com/watch?v=IECI72XEox0
 ```
     
 ## 🛠 Skills
