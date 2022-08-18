@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     QQmlContext* context = engine.rootContext();
 
-    Record* mRecord = new Record();
-    context->setContextProperty("_myrecord", mRecord);
 
+    Record* mRecord = new Record();
+    context->setContextProperty("_myrecord", mRecord);//Qml connect
 
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));

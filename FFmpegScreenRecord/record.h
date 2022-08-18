@@ -19,7 +19,7 @@ public:
 
 
 private:
-    QProcess m_Process;
+    QProcess *m_Process = new QProcess(this);
 
 
 };
